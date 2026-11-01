@@ -1,0 +1,62 @@
+MINHA FAZENDA — APP PWA
+=======================
+
+Este projeto é um jogo de fazenda 2D leve, instalável no Android como PWA.
+Não é um APK nativo. Ele é instalado pelo Chrome/ navegador compatível depois
+que estiver publicado em um endereço HTTPS (por exemplo, GitHub Pages).
+
+COMO TESTAR NO COMPUTADOR
+-------------------------
+1. Extraia o ZIP.
+2. Abra um terminal dentro da pasta do projeto.
+3. Execute:
+
+   python3 -m http.server 8000
+
+4. Abra http://localhost:8000 no navegador.
+
+COMO PUBLICAR NO GITHUB PAGES
+-----------------------------
+1. Crie um repositório no GitHub, por exemplo: minha-fazenda.
+2. Envie todos os arquivos e pastas desta pasta para a raiz do repositório.
+3. No GitHub, entre em Settings > Pages.
+4. Em Build and deployment, selecione Deploy from a branch.
+5. Escolha a branch main e a pasta /(root), depois salve.
+6. Aguarde o GitHub publicar o site. O endereço será parecido com:
+   https://SEU-USUARIO.github.io/minha-fazenda/
+7. Abra esse endereço no Chrome do Android. Use o menu ⋮ e escolha
+   "Instalar app" ou "Adicionar à tela inicial".
+
+COMO JOGAR
+----------
+- Na Fazenda, toque em um quadrado livre e use a Enxada.
+- Escolha uma semente na Loja.
+- Volte à Fazenda, selecione Plantar e toque no canteiro preparado.
+- Volte quando o tempo terminar e colha.
+- Os produtos ficam no Depósito para venda.
+- Missões dão moedas e XP. Subir de nível desbloqueia culturas e animais.
+- Em Mais, você pode expandir a fazenda, ativar o modo demonstração e
+  exportar/importar um arquivo de salvamento.
+
+TEMPOS
+------
+Os tempos padrão são reais: trigo 5 min, cenoura 20 min, milho 1 hora,
+morango 3 horas, abóbora 6 horas e girassol 8 horas. O modo demonstração
+acelera os cultivos para testes.
+
+SALVAMENTO E PRIVACIDADE
+------------------------
+O progresso fica no armazenamento local do navegador/aparelho. Não há conta,
+servidor, anúncios, compras reais ou sincronização na nuvem nesta versão.
+Use Mais > Exportar progresso para guardar uma cópia do salvamento.
+Limpar os dados do navegador pode apagar a fazenda; mantenha uma cópia JSON.
+
+LIMITAÇÕES DESTA VERSÃO
+----------------------
+- PWA instalável, não APK publicado na Play Store.
+- O funcionamento offline começa após a primeira abertura online.
+- Não há multiplayer, visitas a vizinhos ou comércio entre jogadores.
+- Os animais produzem itens em intervalos e podem ser coletados na Fazenda.
+- Decorações e máquinas estão em uma primeira implementação e ainda não
+  têm todas as animações e interações planejadas.
+- As artes são originais e não incluem arquivos proprietários da Mini Fazenda.
